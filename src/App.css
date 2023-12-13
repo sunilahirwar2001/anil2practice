@@ -1,0 +1,53 @@
+/* .modalClass {  
+  text-align: center;  
+  margin-top: 100px;  
+}  
+/* .newton{
+  color: red;
+  font-size: 30px;
+  
+} */
+
+/* 
+.redColor{
+  font-size: 30px;
+  color:red;
+}
+
+.blueColor{
+  font-size: 30px;
+  font-style: italic;
+  color: blue;
+}  */
+
+/* 
+.playground{
+    width:50%;
+    height:50%;
+    margin: auto;
+}
+body html .root {
+    height: 100%;
+}
+.ball{
+    background-color: black;
+    box-shadow: 0 10px 10px -6px;
+    position: relative;
+    right: 0px;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+} */
+
+.color-red{
+  color: red;
+  background-color: gold;
+}
+.color-green{
+  color: green;
+}
+
+.color-gray{
+  color: gray;
+}
+

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        // var num=100;
+        // function divide(){
+
+        //     var z=20;
+        //     console.log(z);
+        // }
+      //  console.log(z);
+           
+//       console.log(foo); // undefined
+
+// var foo = 'bar';
+
+// console.log(foo);
+
+
+// let a;                  // Declaration
+// a = 100;            // Assignment
+// console.log(a); 
+   
+   
+   
+// var foo;
+
+// console.log(foo);
+
+// foo = 'foo';
+
+// console.log(foo);  
+
+
+
+	// Hoisting
+	// function codeHoist(){
+	// 	 let a = 10;
+	// 	let b = 50;  
+	// }
+    //   //console.log(a);
+    //   console.log(b);
+	// codeHoist();
+
+	
+ 
+	// function fun(){
+	// 	let name='sunil';
+	
+	// 	//name = 'Mukul Latiyan';
+    //     console.log(name);
+	// }
+	// fun(); 
+    // console.log(name);
+
+
+//     hoisted() // output: "Hoisted"
+// function hoisted() {
+//   console.log('Hoisted')
+// }
+         
+function parent() {
+    // Function declaration hoisted with the definition
+    function hoisted() {
+        return "I'm a function";
+    }
+    // Declaration ignored, assignment of a string
+    hoisted = "I'm a variable"; 
+   // return hoisted(); 
+}
+console.log(parent());
+   
+   
+//    function foo(){
+//     function bar() {
+//         return 3;
+//     }
+//     return bar();
+//     function bar() {
+//         return 8;
+//     }
+// }
+// alert(foo());
+   
+
+
+
+
+// function foo(){
+//     //Hoisted before
+//     function bar() {
+//         return 3;
+//     }
+//     // Hoisted after
+//     function bar() {
+//         return 8;
+//     }
+//     return bar();
+    
+// }
+// alert(foo());
+
+    
+function parent() {
+    var hoisted = "I'm a variable";
+    function hoisted() {
+        return "I'm a function";
+    }
+    return hoisted(); 
+}
+console.log(parent());
+
+       
+   </script>
+</body>
+</html>
